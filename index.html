@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>Greek Notes</title>
+        <link rel="stylesheet" href="main.css">
+    </head>
+
+    <body>
+        <section>
+            <div>
+                <strong>Mode:</strong> <span id="input_mode">normal</span>
+            </div>
+            <div>
+                <strong>Input:</strong> <span id="input_buffer"></span>
+            </div>
+        </section>
+
+        <section>
+            <h3>Input Text:</h3>
+            <textarea cols="80" rows="6" id="input_text"></textarea>
+            <button type="button" id="parse_btn">Parse</button>
+        </section>
+
+        <section>
+            <h3>Parsed Text</h3>
+            <div id="parsed_text"></div>
+        </section>
+
+        <section>
+            <h3>Notes</h3>
+            <div id="note_list"></div>
+        </section>
+
+        <script type="text/javascript" src="main.js"></script>
+    </body>
+</html>

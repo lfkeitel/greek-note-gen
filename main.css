@@ -1,0 +1,19 @@
+#parsed_text {
+    display: flex;
+}
+
+.wordbox {
+    display: flex;
+    flex-direction: column;
+    /* border: solid black 2px; */
+    padding: 5px;
+    margin: 0 5px;
+    text-align: center;
+}
+
+.note-item {
+    display: flex;
+    padding: 5px;
+    margin: 0 5px;
+    border: solid black 1px;
+}
