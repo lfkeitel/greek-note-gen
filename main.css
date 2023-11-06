@@ -17,3 +17,32 @@
     margin: 0 5px;
     border: solid black 1px;
 }
+
+.note-item-index, .note-item-words, .note-item-parsing, .note-item-note {
+    padding: 10px 10px;
+}
+
+.note-item-index {
+    border-right: solid black 2px;
+}
+
+.note-item-words {
+    font-weight: bold;
+}
+
+.note-item-words::after {
+    content: " - ";
+}
+
+.note-item-parsing {
+    padding-left: 0;
+}
+
+.note-item-note {
+    padding-left: 0;
+}
+
+.placeholder {
+    font-weight: normal;
+    color: gray;
+}
